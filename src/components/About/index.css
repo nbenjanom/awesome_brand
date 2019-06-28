@@ -1,0 +1,47 @@
+.about-wrapper {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 85px;
+}
+
+.about-wrapper h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 44px;
+    padding-bottom: 3px;
+}
+
+.about-wrapper form {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 370px;
+}
+
+.about-wrapper form input {
+    width: 80%;
+    padding: 14px 10px;
+    border: black 1px solid;
+}
+
+.about-wrapper form button {
+    padding: 10px;
+    border: black 1px solid;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+}
+
+.valid-mail::after {
+    color : green;
+    content : "Your email has been correctly submitted";
+    font-weight: bold;
+}
+
+.invalid-mail::after {
+    color: red;
+    content : "Please enter a valid e-mail address";
+    font-weight: bold;
+}
